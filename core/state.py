@@ -10,7 +10,6 @@ def add_state(name, inputvars, outputvars):
     STATE_DICT[name] = inputvars
     STATE_DICT[name] = outputvars
 
-
 # Show the variables within a state
 def show_state(name):
     for i in STATE_DICT[name]:

@@ -1,3 +1,8 @@
 def hello_world():
-    print("Hello Finish!!")
-    
+    return "Hello Finish!!"
+
+# Required Task definition for the playbooks.
+def task(*args):
+    inputs = args[0]
+    outputs = hello_world()
+    return outputs

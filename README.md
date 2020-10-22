@@ -8,4 +8,8 @@ Soarpy started as a personal project, to create a simple SOAR platform with a ve
 
 However, while it started as a SOAR project, creating workflows and automated responses are not only limited to security purposes, but can (and should be) used in a more general setting.
 
-
+# GOALS
+- A SIMPLE workflow generator with a focus on security implementations
+- A modulair structure which only requires two containers at maximum, making it deployable via k8s etc.
+- Easily extendable, without to much underlying restrictions and dependencies.
+- And more :)

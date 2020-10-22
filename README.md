@@ -1,8 +1,11 @@
-# Proof of Concept SOAR commandline application.
+# Proof of Concept workflow application.
 
-Soarpy is a Python written (WIP) commandline application which enables a user to create simple pythonfiles and chain them together with (boolean)logic.
+Soarpy is a Python written (commandline) application which enables a user to create simple pythonfiles and chain them together using simple logic.
 
-This way, playbooks can be created which can be executed upon certain actions, contain predefined logic on how to respond to what events and can be used to automate almost all scripting into a single framework.
+Soarpy originates from SOAR and PY. SOAR stands for Security Orchistration and Automated Response and the PY stands for implementation in Python. 
 
-#### Current limitations:
-- Cannot have the same state twice without overriding the old one.
+Soarpy started as a personal project, to create a simple SOAR platform with a very easy and low to the ground method to chain 'tasks' together.
+
+However, while it started as a SOAR project, creating workflows and automated responses are not only limited to security purposes, but can (and should be) used in a more general setting.
+
+
